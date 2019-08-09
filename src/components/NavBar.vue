@@ -1,9 +1,11 @@
 <template>
-<router-view/>
+<nav>
 
+
+
+</nav>
 
 </template>
-
 
 
 <script>
@@ -12,3 +14,4 @@ export default{
 
 }
 
+</script>
