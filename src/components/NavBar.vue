@@ -1,17 +1,29 @@
 <template>
 <nav>
 
-
-
+  <ul>
+    <li>Home</li>
+    <li>Admin</li>
+    <li>Groups</li>
+    <li>Settings</li>
+  </ul>
 </nav>
-
 </template>
 
 
-<script>
+  <script>
 
-export default{
+    export default{
 
-}
+    }
 
-</script>
+    </script>
+
+<style lang="css" scoped src="../../public/css/navBar.css">
+
+</style>
+
+
+
+
+  

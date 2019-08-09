@@ -1,14 +1,20 @@
 <template>
+<div class="app">
+<nav-bar></nav-bar>
 <router-view/>
-
-
+</div>
 </template>
 
 
-
-<script>
-
-export default{
-
+  <script>
+  import nav from "./components/NavBar"
+    export default{
+components:{
+  navBar:nav
 }
+    }
 
+    </script>
+
+
+  
