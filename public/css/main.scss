@@ -1,18 +1,19 @@
+.app {
+  min-width: 440px;
+  background-color:rgb(220, 247, 226);
+  min-height:100vh;
+}
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-.feed 
-{
-    width:80vw;
- 
-    
+.feed {
+  width: 80%;
 }
-.sideBar 
-{
-    width:20vw;
-    margin-right:5px;
+.sideBar {
+  width: 20%;
+  min-width: 110px;
 }
 .rendered       // holds permanent views/components that will be displayed side to side
-{ 
-    display:flex;
+ {
+  display: flex;
 }
