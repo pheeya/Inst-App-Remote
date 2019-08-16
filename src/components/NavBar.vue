@@ -3,9 +3,9 @@
 
   <ul>
     <li>Home</li>
-    <li>Admin</li>
-    <li>Groups</li>
-    <li>Settings</li>
+    <li>Profile</li>
+    <li>Messages</li>
+    <li class='fullHeightLi'><input type="text" placeholder="Search"></li>
   </ul>
 </nav>
 </template>
@@ -19,7 +19,7 @@
 
     </script>
 
-<style lang="css" scoped src="../../public/css/navBar.css">
+<style lang="scss" scoped src="../../public/css/navBar.scss">
 
 </style>
 
