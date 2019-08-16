@@ -7,7 +7,7 @@
         <cmp-feed></cmp-feed>
       </div>
       <div class="sideBar">
-        
+<cmp-side-bar></cmp-side-bar>
       </div>
     </div>
   </div>
@@ -17,10 +17,12 @@
   <script>
 import feed from "./views/feed.vue";
 import nav from "./components/NavBar";
+import sideBar from "./components/SideBar"
 export default {
   components: {
     navBar: nav,
-    cmpFeed: feed
+    cmpFeed: feed,
+    cmpSideBar:sideBar
   }
 };
 </script>

@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+main {
+   
+  ul {
+      min-height:70vh;
+      
+    list-style-type: none;
+    background-color: #4cb69f;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+   
+    li {
+      margin: 5px 10px;
+      padding: 15px 5px;
+      cursor: pointer;
+      color: white;
+      font-size: 17px;
+      border-bottom:1px solid rgba(253, 253, 253, 0.212);
+      transition:all .15s;
+    }
+
+    li:hover {
+      color: rgba(181, 247, 203, 0.986);
+    }
+  }
+}

@@ -1,6 +1,18 @@
+* {
+    box-sizing: border-box;
+}
 .feed 
 {
     width:80vw;
-
+ 
     
+}
+.sideBar 
+{
+    width:20vw;
+    margin-right:5px;
+}
+.rendered       // holds permanent views/components that will be displayed side to side
+{ 
+    display:flex;
 }
