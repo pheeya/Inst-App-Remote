@@ -1,29 +1,25 @@
 <template>
-<nav>
-
-  <ul>
-    <li>Home</li>
-    <li>Profile</li>
-    <li>Messages</li>
-    <li class='fullHeightLi'><input type="text" placeholder="Search"></li>
-  </ul>
-</nav>
+    <div class="main">
+        <div class="topNavs">
+        <cmp-mode></cmp-mode>
+     <cmp-options></cmp-options>
+   </div>
+    </div>
 </template>
 
+<script>
+import navMode from "./subComponents/navMode"
+import options from "./subComponents/options"
 
-  <script>
-
-    export default{
-
+export default {
+    components:{
+        cmpMode:navMode,
+       cmpOptions:options
     }
+   
+}
+</script>
 
-    </script>
-
-<style lang="scss" scoped src="../../public/css/navBar.scss">
-
+<style lang='scss' scoped>
+@import "../../public/css/navBar.scss";
 </style>
-
-
-
-
-  

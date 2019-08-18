@@ -1,0 +1,38 @@
+main 
+{
+    width:80vw;
+    position:fixed;
+    right:0;
+    height:90vh;
+    padding:10px;
+    
+    
+}
+
+.content 
+{
+    
+   padding:10px;
+   min-height:84vh;
+   background:rgba(55,113,200,255);
+
+}
+
+.content
+{
+    overflow:scroll;
+    height:80vh;
+
+    list-style-type:none;
+   p
+    {
+        font-size:16px;
+        margin:15px;
+        
+       
+    }
+}
+
+.content::-webkit-scrollbar { width: 0 !important }
+.content { overflow: -moz-scrollbars-none; }
+.content { -ms-overflow-style: none; }

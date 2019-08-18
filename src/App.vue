@@ -1,28 +1,22 @@
 <template>
   <div class="app">
-    <nav-bar></nav-bar>
-
-    <div class="rendered">
-      <div class="feed">
-        <cmp-feed></cmp-feed>
-      </div>
-      <div class="sideBar">
-<cmp-side-bar></cmp-side-bar>
-      </div>
-    </div>
+    
+<cmp-nav></cmp-nav>
+<cmp-side></cmp-side>
+<div class="view">
+  <router-view/>
+</div>
   </div>
 </template>
 
 
   <script>
-import feed from "./views/feed.vue";
-import nav from "./components/NavBar";
-import sideBar from "./components/SideBar"
+import navBar from "./components/navBar"
+import sideBar from "./components/sideBar"
 export default {
   components: {
-    navBar: nav,
-    cmpFeed: feed,
-    cmpSideBar:sideBar
+   cmpSide:sideBar,
+cmpNav:navBar
   }
 };
 </script>

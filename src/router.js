@@ -10,14 +10,10 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: Home
+      name: 'feed',
+      component: () => import(/* webpackChunkName: "about" */ './views/feed.vue')
     },
-    {
-      path:'/profle',
-      name:'profile',
-      component:Profile
-    },
+    
     {
       path: '/profile',
       name: 'profile',
